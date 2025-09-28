@@ -1,0 +1,40 @@
+Press Security Groups on left side of screen
+Press Orange button "Create Security Group"C
+Complete Basic details  
+      Security group name
+      Description
+      VPC
+Complete Inbound Rules Add two rules (set IPV 4)
+      HTTP 
+      SSH
+Outbound Rules (slide mouse all the WAY AROUND)
+Orange button press it Create Security Group
+Press Instances on the left side of the screen
+Orange Button and Press Launch Instances
+Name instance
+leave default settings in App and OS Images
+Press Create new key pair
+Advanced detail needs your attention   
+      Go to git bash and copy your script
+      Paste into User data
+      Press Orange button Launch Instance
+HTTP:// copy PNC and place in 
+Locate your instance by pressing Instance on the left side of the screen
+      Check instance and click Actions
+      Press Template and Image
+      then press create template from image
+Inside Create Launch Template (Name and Description) 
+Verify the following are correct
+  instance type
+  key pair
+  security group
+  Advanced details
+Press View Launch Template
+  check the template and press Action  
+  press Modify Template
+Modify Template Verify they are correct
+  App and OS Images
+  Instance Type
+  Key Pair
+  Security Group
+Advanced details scroll to User Data and Insert New Script 
